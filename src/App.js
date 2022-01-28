@@ -5,6 +5,8 @@ import CandiesList from './2 (candies)/CandiesList';
 import { candies } from './2 (candies)/candies-data';
 import IPList from './3 (IPs)/IPList';
 import { ips } from './3 (IPs)/ip-data';
+import SnackList from './4 (snacks)/SnackList';
+import { snacks } from './4 (snacks)/snack-data';
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <ColorsList colors={colors}/>
       <CandiesList candies={candies}/>
       <IPList ips={ips}/>
+      <SnackList snacks={snacks}/>
     </div>
   );
 }
