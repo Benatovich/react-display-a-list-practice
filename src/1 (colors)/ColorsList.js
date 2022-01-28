@@ -3,12 +3,15 @@ import ColorItem from './ColorItem';
 // import './ColorsList.css';
 
 export default function ColorsList(props) {
+  const colorsEl = props.colors.map((color, i) => {
+    return (
+      <ColorItem key={`${color} +${i}`} {...color} />
+    );
+  }
+  );
   return (
-    <div className='colors-list'>
-      {
-        props.colors.map((colors, i) =>
-          <ColorItem key={`${colors} + ${i}`} />)
-      }
-    </div>
+    <ul className='colors-list'>
+      {colorsEl}
+    </ul>
   );
 }
