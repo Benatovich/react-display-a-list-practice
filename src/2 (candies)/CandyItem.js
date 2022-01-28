@@ -1,9 +1,11 @@
-export default function CandyItem(props) {
+import './CandyItem.css';
+export default function CandyItem({ brand, type, maker }) {
+  console.log(brand, type, maker);
   return (
     <div className='candy-item'>
-      <span className='brand'>{props.brand}</span>
-      <span className='type'>{props.type}</span>
-      <span className='maker'>{props.maker}</span>
+      <p className='brand'>Brand: {brand}</p>
+      <p className='type'>Type: {type}</p>
+      <p className='maker'>Maker: {maker}</p>
     </div>
   );
 }
