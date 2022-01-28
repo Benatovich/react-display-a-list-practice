@@ -1,14 +1,14 @@
 // import './IPItem.css';
-export default function IPItem(props) {
+export default function IPItem({ title, genre, protagonist }) {
     // cool zone
   return (
     <div className='ip-item'>
-      <p className='title'>Title: {props.title}</p>
-      <p className='genre'>Genre: {props.genre}</p>
+      <p className='title'>Title: {title}</p>
+      <p className='genre'>Genre: {genre}</p>
       <div className='protagonist'>
-        <p className='name'>Name: {props.protagonist.name}</p>
-        <p className='faction'>Faction: {props.protagonist.faction}</p>
-        <p className='equipment'>Equipment: {props.protagonist.equipment}</p>
+        <p className='name'>Name: {protagonist.name}</p>
+        <p className='faction'>Faction: {protagonist.faction}</p>
+        <p className='equipment'>Equipment: {protagonist.equipment}</p>
       </div>
     </div>
   );

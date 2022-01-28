@@ -4,7 +4,7 @@ import { colors } from './1 (colors)/colors-data';
 import CandiesList from './2 (candies)/CandiesList';
 import { candies } from './2 (candies)/candies-data';
 import IPList from './3 (IPs)/IPList';
-import { IPs } from './3 (IPs)/ip-data';
+import { ips } from './3 (IPs)/ip-data';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       {/* Render all your lists here. Pass the arrays as props. */}
       <ColorsList colors={colors}/>
       <CandiesList candies={candies}/>
-      <IPList IPs={IPs}/>
+      <IPList ips={ips}/>
     </div>
   );
 }

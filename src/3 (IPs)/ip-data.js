@@ -1,6 +1,6 @@
 // render list of objects where one property is a nested object
 
-export const IPs = [
+export const ips = [
   {
     title: 'star wars', 
     genre: 'sci-fi',
