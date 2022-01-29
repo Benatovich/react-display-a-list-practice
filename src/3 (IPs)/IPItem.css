@@ -1,0 +1,17 @@
+.ip-item {
+    width: 200px;
+    height: 350px;
+    background-color: pink;
+    padding-left: 5px;
+}
+
+.protagonist {
+    display: flex;
+    flex-direction: column;
+}
+
+.ip-item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Space and Astronomy';
+}
