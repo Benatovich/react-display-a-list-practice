@@ -1,6 +1,6 @@
 import React from 'react';
 import IPItem from './IPItem';
-// import './IPList.css';
+import './IPList.css';
 
 export default function IPList({ ips }) {
 //   console.log(props.IPs);
